@@ -1,5 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Popup from './components/Popup.vue'
+
 </script>
 
 <template>
@@ -12,9 +14,11 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <popup class="popup" title="Nouvelle Vague" body="Trois artistes proposent, chacun à leur tour, leur langage visuel, leur sensibilité, leur savoir technique et… leur imaginaire. Tous ont envie de partager avec nous ces projections aussi courtes que denses. Elles s’enchaînent sous nos yeux et nous interpellent. Elles sont décalées, audacieuses, mouvementées ou délicates…" imagesrc="public/assets/test.png"></popup>
 </template>
 
 <style scoped>
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -26,5 +30,10 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.popup:hover{
+  will-change: filter;
+  transition: filter 300ms;
+  filter: drop-shadow(1px 1px  1em white);
 }
 </style>
