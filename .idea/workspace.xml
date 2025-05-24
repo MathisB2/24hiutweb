@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13526da6-7667-4338-a18c-0621cccad6bc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/images/011.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data/buildings.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/data/buildings.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2xWbldLjrf3R9e7X8x0vkxdsT43" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BUT\3A\24hinfo\web\mathisb2.24hiut.github.io\my-app\public\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13526da6-7667-4338-a18c-0621cccad6bc" name="Changes" comment="" />
+      <created>1748056931031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748056931031</updated>
+      <workItem from="1748056932667" duration="100000" />
+      <workItem from="1748057037351" duration="409000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
