@@ -31,6 +31,12 @@ export const buildings = [
     photo: '/src/data/005.jpg',
     },
     {
+    id: "006",
+    name: "Hôtel de Ville de Lyon",
+    desc: "La façade majestueuse de l’Hôtel de Ville devient le canevas d’un spectacle numérique fascinant : *Mémoire en lumière*. Ce voyage temporel et poétique fait défiler l’histoire de Lyon à travers des fresques animées et des jeux de lumières sculptant l’architecture. Du Moyen Âge au futur, les époques s’entrelacent, portées par une bande sonore orchestrale et immersive. Les statues s’éveillent, les pierres respirent, et l’Hôtel de Ville devient un témoin vivant du passage du temps.",
+    photo: "/src/data/006.jpg",
+},
+    {
         id: "007",
         name: "Place Louis Pradel",
         desc: "Elles sont huit marionnettes lumineuses, hautes de six à huit mètres. Elles ondulent dans la nuit au rythme de la bande-son électronique. Vous reconnaîtrez peut-être leurs visages : ce sont ceux des 	dirigeants des géants du web, les fameux \"GAFAM\"*. Situé au carrefour du spectacle audiovisuel monumental et du théâtre de marionnettes, Brain Dance propose une chorégraphie haute en couleur. En les observant 	depuis le sol, ces effigies gonflables donnent à voir l’influence massive qu’exercent les technologies sur nos vies. Pourtant, ces figures sont elles aussi soumises au vent, et qui sait… aux courants parfois 	imprévisibles de l’histoire ! * Ces 5 lettres font référence aux cinq plus grosses entreprises du secteur numérique : Google, Apple, Facebook, Amazon et Microsoft.",
@@ -48,4 +54,16 @@ export const buildings = [
         desc: "Suivez l’étonnant personnage principal de l’histoire : une lampe à filament qui brille éternellement dans un hangar. Elle vibre et traverse le temps comme les frontières. Pour l’enfant qui en découvre 	la magie, tout un monde s’ouvre ! Dans ce film projeté sur les magnifiques façades alignées, L’enfant lumière nous entraîne et nous transmet la diversité de ses émotions. L’œuvre va à l’essentiel… On aime 	l’intensité du dessin et ce crayonné noir et blanc. On se laisse porter par la musique qui colle parfaitement. Un air de blues flotte dans l’air et de vastes paysages jouent avec notre imagination. Une zone 	dédiée est prévue pour les personnes en situation de handicap, incluant le prêt de casques audio-description et de gilets vibrants.",
     photo: '/src/data/009.jpg',
     },
+    {
+    id: "010",
+    name: "Tour Part-Dieu",
+    desc: "*Data Pulse* transforme la Tour Part-Dieu en une immense antenne vivante, captant et diffusant les flux d’informations du monde. Sur toute sa hauteur, des faisceaux de lumière palpitent en temps réel au rythme des données numériques – battements du monde connecté. Une animation algorithmique déploie motifs géométriques et pulsations lumineuses, évoquant une respiration technologique. Ce phare urbain incarne l’interaction entre architecture, réseau et humanité.",
+    photo: "/src/data/010.jpg",
+},
+{
+    id: "011",
+    name: "Mussée des Moulages",
+    desc: "À l’intérieur du Musée des Moulages, *L’Atelier des ombres* propose une mise en scène sensorielle où les sculptures prennent vie sous des halos mouvants. Des silhouettes lumineuses dansent sur les murs, prolongeant les gestes figés du marbre. Entre ombre et lumière, ce spectacle invite à redécouvrir les chefs-d’œuvre de l’Antiquité à travers un prisme contemporain. Des effets de lumière rasante et des projections animées transforment les moulages en acteurs d’un récit visuel énigmatique.",
+    photo: "/src/data/011.jpg",
+},
 ]
