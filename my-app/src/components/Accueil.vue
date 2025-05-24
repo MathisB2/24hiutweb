@@ -37,6 +37,9 @@
           </div>
           <br>
           <br>
+          <p>Illuminez la ville au cours de votre exploration</p>
+          <br>
+          <br>
           <br>
           <div>
             <router-link to="/map" class="map-link">
@@ -45,20 +48,7 @@
           </div>
         </div>
 
-        <div class="features-grid">
-          <div 
-            v-for="(feature, index) in features" 
-            :key="index"
-            class="feature-card fade-in" 
-            :class="{ visible: isVisible.features[index], pulse: feature.isPulsing }"
-            @mouseenter="onCardHover"
-            @mouseleave="onCardLeave"
-          >
-            <span class="feature-icon">{{ feature.icon }}</span>
-            <h3>{{ feature.title }}</h3>
-            <p>{{ feature.description }}</p>
-          </div>
-        </div>
+        
       </div>
     </section>
   </div>
@@ -74,45 +64,7 @@ export default {
         subtitle: false,
         mapPreview: false,
         features: [false, false, false, false, false, false]
-      },
-      features: [
-        {
-          icon: '🌃',
-          title: 'Lumières Urbaines',
-          description: 'Explorez les installations de la Fête des Lumières, l\'éclairage architectural emblématique et les parcours nocturnes secrets de la ville.',
-          isPulsing: false
-        },
-        {
-          icon: '🎬',
-          title: 'Patrimoine Cinématographique',
-          description: 'Revivez l\'histoire des frères Lumière, découvrez les lieux de tournage mythiques et explorez l\'héritage du cinéma lyonnais.',
-          isPulsing: false
-        },
-        {
-          icon: '💡',
-          title: 'Lumières Symboliques',
-          description: 'Comprenez Lyon comme symbole de connaissance, d\'innovation et de transmission culturelle à travers les siècles.',
-          isPulsing: false
-        },
-        {
-          icon: '🎯',
-          title: 'Expériences Immersives',
-          description: 'Participez à des reconstitutions historiques, des visites virtuelles et des expériences sensorielles uniques.',
-          isPulsing: false
-        },
-        {
-          icon: '📱',
-          title: 'Réalité Augmentée',
-          description: 'Utilisez votre smartphone pour révéler des éléments cachés et vivre des expériences augmentées dans la ville.',
-          isPulsing: false
-        },
-        {
-          icon: '🎵',
-          title: 'Ambiances Sonores',
-          description: 'Écoutez les sons de la ville, les témoignages historiques et les créations musicales inspirées par Lyon.',
-          isPulsing: false
-        }
-      ]
+      }
     }
   },
   mounted() {

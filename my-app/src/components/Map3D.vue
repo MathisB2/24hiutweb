@@ -1,5 +1,6 @@
 <template>
   <div ref="container" class="three-container"></div>
+  <Popup v-if="openPopup" :id="id" @close="closePopup"/>
 </template>
 
 <script setup>
@@ -7,11 +8,18 @@ import { onMounted, ref, onBeforeUnmount } from 'vue'
 import * as THREE from "three";
 import {EffectComposer, GLTFLoader, OrbitControls, RenderPass, UnrealBloomPass} from "three/addons";
 import {buildings} from "../data/buildings.js";
+import Popup from './Popup.vue';
 
 
 const container = ref(null)
+const openPopup = ref(false)
+const id = ref(null)
 
 let renderer, scene, camera, controls, animationId
+
+const closePopup = () => {
+  openPopup.value = false
+}
 
 onMounted(() => {
 
@@ -35,7 +43,8 @@ onMounted(() => {
 
     for (const building of buildings) {
       if(building.id === hoveredObject.name) {
-        console.log(building.name)
+        id.value = building.id
+        openPopup.value = true
       }
     }
   })
