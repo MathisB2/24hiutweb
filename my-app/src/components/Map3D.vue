@@ -128,8 +128,8 @@ torch.target = torchTarget;
 
 
   // === Lights ===
-  const light = new THREE.HemisphereLight(0xffffff, 0x444444, 0.2)
-
+  const light = new THREE.HemisphereLight(0xffffff, 0x444444, 0.8)
+scene.add(light)
   // === OrbitControls ===
   controls = new OrbitControls(camera, renderer.domElement)
   controls.enableDamping = true
